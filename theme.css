@@ -1,34 +1,71 @@
 body {
-	--radius-s: 0px;
-	--radius-m: 0px;
-	--radius-l: 0px;
-	--input-radius: 0px;
-	--tab-radius-active: 0px;
-	--checkbox-radius: 0px;
-	--toggle-radius: 0px;
-	--toggle-thumb-radius: 0px;
-	--slider-thumb-radius: 0px;
+  --text-highlight-bg-rgb: var(--color-yellow-rgb)
 }
 
-.workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
-	display: none;
+/* modus-vivendi */
+.theme-dark {
+  --mono-rgb-0: 0, 0, 0;             /* bg-main */
+  --mono-rgb-100: 255, 255, 255;     /* fg-main */
+  --color-red-rgb: 255, 95, 89;      /* red */
+  --color-red: #ff5f59;              /* red */
+  --color-orange-rgb: 192, 150, 91;  /* gold */
+  --color-orange: #c0965b;           /* gold */
+  --color-yellow-rgb: 208, 188, 0;   /* yellow */
+  --color-yellow: #d0bc00;           /* yellow */
+  --color-green-rgb: 68, 188, 68;    /* green */
+  --color-green: #44bc44;            /* green */
+  --color-cyan-rgb: 0, 211, 208;     /* cyan */
+  --color-cyan: #00d3d0;             /* cyan */
+  --color-blue-rgb: 47, 175, 255;    /* blue */
+  --color-blue: #2fafff;             /* blue */
+  --color-purple-rgb: 182, 160, 255; /* magenta-cooler */
+  --color-purple: #b6a0ff;           /* magenta-cooler */
+  --color-pink-rgb: 208, 157, 192;   /* pink */
+  --color-pink: #d09dc0;             /* pink */
+  --color-base-00: #000;             /* bg-main */
+  --color-base-05: #000;             /* bg-main */
+  --color-base-10: #000;             /* bg-main */
+  --color-base-20: #000;             /* bg-main */
+  --color-base-25: #1e1e1e;          /* bg-dim */
+  --color-base-30: #303030;          /* bg-inactive */
+  --color-base-35: #303030;          /* bg-inactive */
+  --color-base-40: #535353;          /* bg-active */
+  --color-base-50: #989898;          /* fg-dim */
+  --color-base-60: #989898;          /* fg-dim */
+  --color-base-70: #fff;             /* fg-main */
+  --color-base-100: #fff;            /* fg-main */
 }
 
-svg * {
-	stroke-linecap: square;
-	stroke-linejoin: miter;
-	rx: 0;
-	ry: 0;
-}
-
-.menu {
-	padding: var(--size-2-1);
-}
-
-.menu-item {
-	padding: var(--size-4-1) var(--size-4-2);
-}
-
-.menu-separator {
-	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+/* modus-operandi */
+.theme-light {
+  --mono-rgb-0: 255, 255, 255;       /* bg-main */
+  --mono-rgb-100: 0, 0, 0;           /* fg-main */
+  --color-red-rgb: 166, 0, 0;        /* red */
+  --color-red: #a60000;              /* red */
+  --color-orange-rgb: 128, 96, 31;   /* gold */
+  --color-orange: #80601f;           /* gold */
+  --color-yellow-rgb: 111, 85, 0;    /* yellow */
+  --color-yellow: #6f5500;           /* yellow */
+  --color-green-rgb: 0, 104, 0;      /* green */
+  --color-green: #006800;            /* green */
+  --color-cyan-rgb: 0, 94, 139;      /* cyan */
+  --color-cyan: #005e8b;             /* cyan */
+  --color-blue-rgb: 0, 49, 169;      /* blue */
+  --color-blue: #0031a9;             /* blue */
+  --color-purple-rgb: 83, 26, 182;   /* magenta-cooler */
+  --color-purple: #531ab6;           /* magenta-cooler */
+  --color-pink-rgb: 123, 67, 92;     /* pink */
+  --color-pink: #7b435c;             /* pink */
+  --color-base-00: #fff;             /* bg-main */
+  --color-base-05: #fff;             /* bg-main */
+  --color-base-10: #fff;             /* bg-main */
+  --color-base-20: #fff;             /* bg-main */
+  --color-base-25: #f0f0f0;          /* bg-dim */
+  --color-base-30: #e0e0e0;          /* bg-inactive */
+  --color-base-35: #e0e0e0;          /* bg-inactive */
+  --color-base-40: #c4c4c4;          /* bg-active */
+  --color-base-50: #595959;          /* fg-dim */
+  --color-base-60: #595959;          /* fg-dim */
+  --color-base-70: #000;             /* fg-main */
+  --color-base-100: #000;            /* fg-main */
 }

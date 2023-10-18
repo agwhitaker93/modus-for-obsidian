@@ -1,7 +1,7 @@
 {
-	"name": "Sample Theme",
+	"name": "Modus Themes for Obsidian",
 	"version": "1.0.0",
 	"minAppVersion": "1.0.0",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md"
+	"author": "agwhitaker93",
+	"authorUrl": "https://github.com/agwhitaker93/modus-for-obsidian"
 }
