@@ -1,5 +1,5 @@
 body {
-  --text-highlight-bg-rgb: var(--color-yellow-rgb)
+  --text-highlight-bg: hsl(var(--color-accent-hsl), 0.4);
 }
 
 /* modus-vivendi */
